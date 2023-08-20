@@ -1,1 +1,23 @@
-Hi guys today we are going to learn about git basics
+git branch - This command will display the branches in your local(your machine)
+
+Two terminologies
+
+1. Local - Your local machine
+2. Remote - Your remote repository you are going to push 
+
+What is repository ?
+    Imagine repository as a database containing all your code versioned as 1,2,3,4,5 (prefix version in front of numbers for your 
+reference)
+
+    You can clone or create such repository in your local machine
+
+    1. You can achieve this by doing git clone git@github.com:kishorekumar-hub/git_basics.git -- this is like the url link to the
+    remote repository.
+    2. Difference between fork and clone
+        1. Fork - Let's assume that if your organization/project where multiple people will work on the repository. So each one needs
+        a remote repository to be created. So you can Fork from the main repository. Note: You cannot clone your own repository
+        2. Clone - This comes handy to you when you want the remote repository to your local machine.
+
+            git clone git@github.com:kishorekumar-hub/git_basics.git
+
+    We've done with the repository. We can jump into another topic.
